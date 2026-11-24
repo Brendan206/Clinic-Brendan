@@ -1,4 +1,4 @@
-/* A small reset so the page starts consistently. Leave these three rules. */
+    /* A small reset so the page starts consistently. Leave these three rules. */
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; color: #172554; background: #ffffff; }
 img { max-width: 100%; height: auto; }
@@ -37,3 +37,8 @@ img { max-width: 100%; height: auto; }
 input, select, button { max-width: 100%; }
 nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; }
 header, main, footer { padding: 0 1rem; }
+
+#prices p {
+  color: #10961f;
+  font-weight: bold;
+}
